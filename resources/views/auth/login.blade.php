@@ -60,13 +60,7 @@
                         </div>
                     @endif
 
-                    @if (Route::has('register'))
-                        <div class="text-center mt-2">
-                            <a class="small" href="{{ route('register') }}">
-                                {{ __('Create an Account!') }}
-                            </a>
-                        </div>
-                    @endif
+                   
 
                 </div>
             </div>
